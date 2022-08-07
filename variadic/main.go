@@ -10,6 +10,7 @@ type Person struct {
   Age int
 }
 
+// this is not variadic... update example
 func printNames(person []Person) string {
   for _, element := range person {
     si := element
